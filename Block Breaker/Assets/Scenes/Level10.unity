@@ -3830,7 +3830,7 @@ Prefab:
     - target: {fileID: 224606419354651580, guid: 1ca16ec04657e9d4fa0827e3ddcd4b50,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 0.000030517578
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224606419354651580, guid: 1ca16ec04657e9d4fa0827e3ddcd4b50,
         type: 2}
@@ -3881,6 +3881,10 @@ Prefab:
         type: 2}
       propertyPath: m_Text
       value: Level 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1349580387697366, guid: 1ca16ec04657e9d4fa0827e3ddcd4b50, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1ca16ec04657e9d4fa0827e3ddcd4b50, type: 2}
