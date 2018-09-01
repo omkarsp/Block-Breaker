@@ -15,7 +15,9 @@ public class GameStatus : MonoBehaviour {
     
     //Awake is called before start
     //To keep the final score from last scene
-    private void Awake()
+    
+        
+        /*private void Awake()
     {
         int gameStatusCount = FindObjectsOfType<GameStatus>().Length;
         if(gameStatusCount > 1)
@@ -26,7 +28,9 @@ public class GameStatus : MonoBehaviour {
         {
             DontDestroyOnLoad(gameObject);
         }
-    }
+    }*/
+
+
     //for initiallization
     public void Start ()
     {
